@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aroon Kumar - Full Stack Developer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+    .header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    .profile-img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      border: 4px solid #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      font-size: 36px;
+      margin: 10px 0;
+    }
+    h2 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+    .contact-info {
+      margin: 10px 0;
+    }
+    .section {
+      padding: 20px;
+      background-color: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .section-content {
+      margin-top: 10px;
+    }
+    .projects {
+      padding: 20px;
+      background-color: #f9f9f9;
+      margin-bottom: 20px;
+    }
+    .project-item {
+      margin-bottom: 15px;
+    }
+    .interests {
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .interest-item {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://bucket-dsuak.s3.eu-north-1.amazonaws.com/1687699065359.jpg" alt="Aroon Kumar" class="profile-img">
+    <h1>Aroon Kumar</h1>
+    <p>FULL STACK DEVELOPER</p>
+  </div>
+
+  <div class="section">
+    <h2>SKILLS</h2>
+    <ul class="section-content">
+      <li>ReactJS, HTML, CSS, & JavaScript</li>
+      <li>MySQL, MongoDB</li>
+      <li>C++ Python and Node-js</li>
+      <li>Git</li>
+      <li>Problem-Solving</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>CONTACT</h2>
+    <p class="contact-info">Phone: +923342225201</p>
+    <p class="contact-info">Location: Karachi, Pakistan</p>
+    <p class="contact-info">Email: perchaniarun@gmail.com</p>
+    <p class="contact-info">LinkedIn: <a href="https://pk.linkedin.com/in/aroonk">pk.linkedin.com/in/aroonk</a></p>
+  </div>
+
+  <div class="section">
+    <h2>PROFILE</h2>
+    <p class="section-content">I am a resourceful individual with an eagerness to accept challenges while learning and gaining experience from them. I have good knowledge of OOP, Data Structures, and Databases. Currently, I am seeking an internship opportunity in a good organization.</p>
+  </div>
+
+  <div class="section">
+    <h2>EXPERIENCE</h2>
+    <p class="section-content">
+      <strong>DHA Suffa University Karachi</strong> (August 2021 - October 2021)<br>
+      MERN Stack Internship<br>
+      Tools: MongoDB, Express, ReactJS, Node JS<br>
+      Description: A Click Away is an e-commerce website that enables users to shop with features which include user authentication, order management, and cart system.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>EDUCATION</h2>
+    <p class="section-content">
+      <strong>Commece College PECHS Campus</strong> (2017 - 2018)<br>
+      Intermediate: Pre-Engineering
+    </p>
+    <p class="section-content">
+      <strong>DHA Suffa University Karachi</strong> (2019 - Present)<br>
+      Bachelors of Science in Computer Science
+    </p>
+  </div>
+
+  <div class="section projects">
+    <h2>PROJECTS</h2>
+    <div class="project-item">
+      <p>Tools: HTML, CSS, Bootstrap & JavaScript</p>
+      <p>Tour Guide</p>
+      <p>Description: It is a travel website that provides travel reviews, trip fares, and suggests the main spots of the current destination.</p>
+    </div>
+  </div>
+
+  <div class="section interests">
+    <h2>INTERESTS</h2>
+    <span class="interest-item">Cycling</span>
+    <span class="interest-item">Coding</span>
+    <span class="interest-item">Cricket</span>
+  </div>
+</body>
+</html>
